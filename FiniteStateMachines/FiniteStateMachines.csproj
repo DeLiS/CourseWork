@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B02FAFE6-5412-4DF7-BCB4-9546EA702BAF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FiniteStateMachines</RootNamespace>
+    <AssemblyName>FiniteStateMachines</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\FiniteStateMachines.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\AdjacentState.cs" />
+    <Compile Include="Core\DFA.cs" />
+    <Compile Include="Core\FSMTraveller.cs" />
+    <Compile Include="Core\NFA.cs" />
+    <Compile Include="Core\NPDA.cs" />
+    <Compile Include="Core\PDATraveller.cs" />
+    <Compile Include="Core\PushdownAdjacentState.cs" />
+    <Compile Include="Core\PushDownState.cs" />
+    <Compile Include="Core\State.cs" />
+    <Compile Include="Grammars\ContextFreeGrammar.cs" />
+    <Compile Include="Grammars\ContextFreeGrammarRule.cs" />
+    <Compile Include="Grammars\RegularGrammar.cs" />
+    <Compile Include="Grammars\RegularGrammarRule.cs" />
+    <Compile Include="Interfaces\IGenerator.cs" />
+    <Compile Include="Interfaces\IState.cs" />
+    <Compile Include="Interfaces\ISymbol.cs" />
+    <Compile Include="Processing\FSMConverter.cs" />
+    <Compile Include="Processing\FSMOperator.cs" />
+    <Compile Include="Processing\PdafsmOperator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegExps\RegExpFSMBuilder.cs" />
+    <Compile Include="RegExps\RegExpNPDABuilder.cs" />
+    <Compile Include="RegExps\RegExpTree.cs" />
+    <Compile Include="RegExps\RegExpTreeBuilder.cs" />
+    <Compile Include="Utility\Checker.cs" />
+    <Compile Include="Utility\Direction.cs" />
+    <Compile Include="Utility\FsmException.cs" />
+    <Compile Include="Utility\FsmExceptionId.cs" />
+    <Compile Include="Utility\GuidGenerator.cs" />
+    <Compile Include="Utility\IdPushDownStepSignature.cs" />
+    <Compile Include="Utility\IdStepSignature.cs" />
+    <Compile Include="Utility\MultiSymbol.cs" />
+    <Compile Include="Utility\NodeType.cs" />
+    <Compile Include="Utility\NumberGenerator.cs" />
+    <Compile Include="Utility\OperationType.cs" />
+    <Compile Include="Utility\Pair.cs" />
+    <Compile Include="Utility\PDAStack.cs" />
+    <Compile Include="Utility\PushdownRefStepSignature.cs" />
+    <Compile Include="Utility\PushdownStepQuery.cs" />
+    <Compile Include="Utility\RefStepSignature.cs" />
+    <Compile Include="Utility\StackActions.cs" />
+    <Compile Include="Utility\StateType.cs" />
+    <Compile Include="Utility\StepQuery.cs" />
+    <Compile Include="Utility\Symbol.cs" />
+    <Compile Include="Utility\SymbolType.cs" />
+    <Compile Include="Utility\TreeNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Graphs.lib\Graphs.lib.csproj">
+      <Project>{EC2A0D12-D5D7-4D7E-8494-D0D70674CD37}</Project>
+      <Name>Graphs.lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Graphs.lib.DataStructure.Graph&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAgBEAIAEAABAAAAAAAIQAAAAAACFEAABiAAgYAAA=</HashCode>
+      <FileName>DataStructure\Graph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Graphs.lib.DataStructure.Vertex&lt;T&gt;">
+    <Position X="3.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAAAQAgAAAAAAAACIAAAAAAgAgAAAAAAA=</HashCode>
+      <FileName>DataStructure\Vertex.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Graphs.lib.DataStructure.AdjacentVertex&lt;T&gt;">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>DataStructure\AdjacentVertex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphs.lib.DataStructure.ConnectionArgs&lt;T&gt;">
+    <Position X="8.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAASAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructure\ConnectionArgs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Graphs.lib.DataStructure.WeightedConnectionArgs&lt;T&gt;">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructure\WeightedConnectionArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphs.lib.DataStructure.Edge&lt;T&gt;">
+    <Position X="10.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructure\Edge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Graphs.lib.DataStructure.GraphPartsFactory&lt;T&gt;">
+    <Position X="6.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>DataStructure\GraphPartsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphs.lib.DataStructure.WeightedGraphFacotry&lt;T&gt;">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>DataStructure\WeightedGraphFacotry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

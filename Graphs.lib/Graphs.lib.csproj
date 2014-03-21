@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC2A0D12-D5D7-4D7E-8494-D0D70674CD37}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Graphs.lib</RootNamespace>
+    <AssemblyName>Graphs.lib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\BellmanFord.cs" />
+    <Compile Include="Algorithms\BreadthFirstSearch.cs" />
+    <Compile Include="Algorithms\Colours.cs" />
+    <Compile Include="Algorithms\Dijkstra.cs" />
+    <Compile Include="Algorithms\DepthFirstSearch.cs" />
+    <Compile Include="Algorithms\IAlgorithm.cs" />
+    <Compile Include="Algorithms\Kruskal.cs" />
+    <Compile Include="Algorithms\Prima.cs" />
+    <Compile Include="Algorithms\TopologicalSort.cs" />
+    <Compile Include="DataStructure\AdjacentVertex.cs" />
+    <Compile Include="DataStructure\ConnectionArgs.cs" />
+    <Compile Include="DataStructure\Edge.cs" />
+    <Compile Include="DataStructure\Graph.cs" />
+    <Compile Include="DataStructure\GraphEnumerator.cs" />
+    <Compile Include="DataStructure\GraphPartsFactory.cs" />
+    <Compile Include="DataStructure\IDirectedEdge.cs" />
+    <Compile Include="DataStructure\IEdge.cs" />
+    <Compile Include="DataStructure\IWeightedEdge.cs" />
+    <Compile Include="DataStructure\Vertex.cs" />
+    <Compile Include="DataStructure\WeightedConnectionArgs.cs" />
+    <Compile Include="DataStructure\WeightedGraphFacotry.cs" />
+    <Compile Include="DisjointSet\DisjointSet.cs" />
+    <Compile Include="Heap\Heap.cs" />
+    <Compile Include="Heap\IHeap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataStructure\ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

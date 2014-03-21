@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="5c5b2df2-4678-4a1d-aa3a-5ecb23308cc1" name="RegExpFSMBuilder_Process" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="26a0aa24-755f-4f0b-a948-3b0a48f7ef46" name="RegExpFSMBuilder_Process" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="754d9dcd-44b6-4e3e-bd2d-0cfeab2baf76" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="6e82bd02-7827-4896-8d8e-2798f1f86f47" LastKnownName="this : RegExpFSMBuilder&lt;TOut,TId&gt;" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="27adfa60-906b-4fbb-bfc4-d0d6d11628e5" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="67a66ad0-54e4-4224-85e6-0ec45b1c9708" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="5fbb735d-c96d-48c1-b90b-c30ccc5bf91c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="afff4241-853f-41af-9b13-3615efc395e3" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="228c9fe8-5e7f-4aa9-acd7-4e984937f56d" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="655cde96-8847-45a9-977b-b3ba66f83236" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="67a66ad0-54e4-4224-85e6-0ec45b1c9708" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="7fdd5861-4e64-4c96-b3d0-128178bd91a3" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="6e82bd02-7827-4896-8d8e-2798f1f86f47" LastKnownName="this : RegExpFSMBuilder&lt;TOut,TId&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5fbb735d-c96d-48c1-b90b-c30ccc5bf91c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e82bd02-7827-4896-8d8e-2798f1f86f47" LastKnownName="this : RegExpFSMBuilder&lt;TOut,TId&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="b2149ff3-c16d-449a-b513-21b4a1516aa4" name="LostFoundTarget" />
+          <lostFoundTarget Id="001762b8-0a41-4bed-a82b-c6c74d7cc859" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="afff4241-853f-41af-9b13-3615efc395e3" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e82bd02-7827-4896-8d8e-2798f1f86f47" LastKnownName="this : RegExpFSMBuilder&lt;TOut,TId&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="228c9fe8-5e7f-4aa9-acd7-4e984937f56d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e82bd02-7827-4896-8d8e-2798f1f86f47" LastKnownName="this : RegExpFSMBuilder&lt;TOut,TId&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="2dda9a2a-784a-4d9b-83ee-8d8711097fe1" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="655cde96-8847-45a9-977b-b3ba66f83236" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e82bd02-7827-4896-8d8e-2798f1f86f47" LastKnownName="this : RegExpFSMBuilder&lt;TOut,TId&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="b92a0cd9-e7b8-47df-8651-d25e752a62f3" name="LostFoundTarget" />
+          <executionOccurrenceSpecification Id="27adfa60-906b-4fbb-bfc4-d0d6d11628e5" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="24c527a0-b367-4121-a4f7-6962f9ead017" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="6e82bd02-7827-4896-8d8e-2798f1f86f47" LastKnownName="this : RegExpFSMBuilder&lt;TOut,TId&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="6e82bd02-7827-4896-8d8e-2798f1f86f47" name="this : RegExpFSMBuilder&lt;TOut,TId&gt;" isActor="false" lifelineDisplayName="this : RegExpFSMBuilder&lt;TOut,TId&gt;" referencedInstance="(Assembly=&quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&quot; Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2) ObjectInstance=&quot;Object instance 2&quot;)" referencedType="FiniteStateMachines.RegExps.RegExpFSMBuilder&lt;,&gt;">
+            <referencesInternal>
+              <reference Id="41e8ff9d-7bce-4bbe-aa9c-deae597cb395" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FiniteStateMachines.RegExps)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&amp;quot; Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2))&quot;)" tag="DGQL" />
+              <reference Id="346b386d-7bda-4bc9-866a-e655860dc20a" handle="(Assembly=&quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&quot; Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2))" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="67a66ad0-54e4-4224-85e6-0ec45b1c9708" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="27adfa60-906b-4fbb-bfc4-d0d6d11628e5" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="078126de-4733-445a-9413-74de3db35d1d" name="Process" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="67784e49-2952-4152-93c5-e7788600b6a2" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FiniteStateMachines.RegExps)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&amp;quot; Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2))&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&amp;quot; Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2) Member=(Name=Process OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="f5726fbc-34cc-44f3-b70a-b075f8b25045" handle="(Assembly=&quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&quot; Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2) Member=(Name=Process OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="b2149ff3-c16d-449a-b513-21b4a1516aa4" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5fbb735d-c96d-48c1-b90b-c30ccc5bf91c" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="9acebcce-7def-4675-8916-ed8c05aff7ef" name="Create RegExpTreeBuilder" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="e74eace8-2e71-400e-a102-38f2c89d7c1f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FiniteStateMachines.RegExps)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&amp;quot; Namespace=FiniteStateMachines.RegExps Type=RegExpTreeBuilder)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&amp;quot; Namespace=FiniteStateMachines.RegExps Type=RegExpTreeBuilder Member=(Name=.ctor OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="64382bca-e2af-4661-8630-354f908caae1" handle="(Assembly=&quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&quot; Namespace=FiniteStateMachines.RegExps Type=RegExpTreeBuilder Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jd/q17n/63z26xz8Ose/zt1f4ym9NaV30e+S3sf3XxDMlL6p6bsV9VH9Gu/o05f8909Tu6m2O6G/1wwz/zW+S7/Xv8Zb+vQZ9b+k/7f06Wv6N+PfvqCfUx7Tkv7C2xP+HRjk9Pv617i49btjogQo5o86/TVeKPUawhntc6LLbeG9op8Xv8YpjXNFf6dE/Wv6DRD8b97QCHP67wn1ChrPmKJ3aE7cGy8IH3z+o9n6/8JsnWgfF0yPaztroBXav+aeMXfZr/H706cl/cRsAsZz+n1C35X8xs09450zeveYxlHR/68JKmak4fefsRbA3HzE8n9GLRqmwZKp8yP5//8GR/1I/v+/NFs/bPn/kt4wc9KVcNP3PcUQva4Yr4xxC/tDH+tfA9pCtMq36feM2vs9hO2gVYw3Aard5U/u9vCQT7v+h/92an/7vaj9NffzIz7/fxefpwRP5gJ/fUbzYzD5jCCDVhW3+vLXuOQWJf2d0bvo/YKoCp6T9i1/Dyv1va85yzJHFwox5fGjFeiNkZxzD5hpsXRhH4W2/IJ+mzKkhv5/Tv1hZgyWV3amxzTSU6JK7LvLX2Ofvt+h3xYEZcqfo4fJe8zeaxp1w1RZBHOCmayVfnd+je/T/9MIHc94fsDTBVNLZgejv6D/Yz7vqEz/yH78SK5+JFfftFx9s37az8cZ+Nnxn/yZMj7N8a/xo0jp/zu609eEfqtnBO+Lnhb9nKmI38H7fXkWioHOn/0aeyzzw3pX6I1xNIzTj3Tvz47k/0j3/lzPwA9H994mSt1VXDZHqb6u/tmJU/349C6NWTTKTfn1/ycAAP//OhtoaYoXAAA=
+(Assembly="$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)" Namespace=FiniteStateMachines.RegExps Type=RegExpTreeBuilder ObjectInstance="Object instance 3")
+treeBuilder : RegExpTreeBuilder
+new RegExpTreeBuilder(regexp)</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="afff4241-853f-41af-9b13-3615efc395e3" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="001762b8-0a41-4bed-a82b-c6c74d7cc859" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="45455b6b-afae-4af3-a5bf-055a7805c466" name="BuildTree" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="4f4770ee-8177-47dc-94e7-bb0abf4df4ab" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FiniteStateMachines.RegExps)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&amp;quot; Namespace=FiniteStateMachines.RegExps Type=RegExpTreeBuilder)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&amp;quot; Namespace=FiniteStateMachines.RegExps Type=RegExpTreeBuilder Member=BuildTree)&quot;)" tag="DGQL" />
+              <reference Id="6398f556-527e-4fb6-835a-e6f0270b49f6" handle="(Assembly=&quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&quot; Namespace=FiniteStateMachines.RegExps Type=RegExpTreeBuilder Member=BuildTree)" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jd/q17n/63z26xz8Ose/zt1f4ym9NaV30e+S3sf3XxDMlL6p6bsV9VH9Gu/o05f8909Tu6m2O6G/1wwz/zW+S7/Xv8Zb+vQZ9b+k/7f06Wv6N+PfvqCfUx7Tkv7C2xP+HRjk9Pv617i49btjogQo5o86/TVeKPUawhntc6LLbeG9op8Xv8YpjXNFf6dE/Wv6DRD8b97QCHP67wn1ChrPmKJ3aE7cGy8IH3z+o9n6/8JsnWgfF0yPaztroBXav+aeMXfZr/H706cl/cRsAsZz+n1C35X8RhvtDe3OqP0x4V7R/68JEmah4XeeseRjPj5imT+jFg2Pe8kU+ZHM/3+Di34k8/9fmq0fhsx/Sa3MPHSl2vR3T7FCTyvGJWN8wj58HSG65Nv0e0Zv+H2gJca+5nbQJcZvAK3u8id3e5jIp11PQz69rafy/wQAAP//BsjvKtQIAAA=
+(Assembly="$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)" Namespace=FiniteStateMachines.RegExps Type=RegExpTreeBuilder ObjectInstance="Object instance 3")
+treeBuilder : RegExpTreeBuilder
+treeBuilder.BuildTree()</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="228c9fe8-5e7f-4aa9-acd7-4e984937f56d" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="2dda9a2a-784a-4d9b-83ee-8d8711097fe1" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="3a27bff2-a8d1-4cf8-b33b-edb448a1437c" name="BuildNfa" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="346d9fe3-2c57-4012-8a57-6ada24cf861f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FiniteStateMachines.RegExps)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&amp;quot; Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2))&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&amp;quot; Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2) Member=BuildNfa)&quot;)" tag="DGQL" />
+              <reference Id="04943b3e-f8ba-4d1f-b34d-cd6626109212" handle="(Assembly=&quot;$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)&quot; Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2) Member=BuildNfa)" tag="DGML" />
+            </referencesInternal>
+            <generationState>H4sIAAAAAAAEAOy9B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/Gq9/jfzXqH+N4tfIfo2S/v0B/TX7NU74r/LXeEbfZL/Ggj47+jUe/xpvfo05tWh+jVe/RkX/tb9G+mucUdvPfo2Pfo2tX+OYPm+o3eLXmNB71/TpL/w1ftGvseZ2h7/GOb1X0rePfo27/N8J//YVv1HTv3d/jd/q17n/63z26xz8Ose/zt1f4ym9NaV30e+S3sf3XxDMlL6p6bsV9VH9Gu/o05f8909Tu6m2O6G/1wwz/zW+S7/Xv8Zb+vQZ9b+k/7f06Wv6N+PfvqCfUx7Tkv7C2xP+HRjk9Pv617i49btjogQo5o86/TVeKPUawhntc6LLbeG9op8Xv8YpjXNFf6dE/Wv6DRC2LNzPglbPCN4Xv8YT6h/UnjFt01/jc6aizPGUKJbZOW35U6EY6PzZr7H3a9yh/z7yentB3wLSj2b6/+8zfaL4XTAtr+2M4y308Jqxxrxnv8bvT5+W9BOcABjP6fcJfVfyG63qCXxzRj+Pqc+K/n9N7wKDhls9Yx2D2fuItcsZtWiYSkum34+0y///ee5H2uXny0z/7GiXL+lzM2td/WF62FM8AHvFvWeMQQjV10aitb5Nv2f0ht8HWr6ht9fcDlrL+EJN8Fdqf/u9qOU1v/cj3v7/D2+nBEPmEd9+xjyR0393lHt+pM1+fs34j+zZ/5s5wMzV+836bq/9Mf28COj/2a/xvR/N8c/CHJ/x2EGfc313eKbPCNI1074iHP7fNMcyQxfaf8qjRytQG/x5zr2iH4l3wj4KbfkF4wVIDf3/nPrDvJgxXdl5HhNNTolGse8uf419+n6HflsQlCl/jh4m7zF3oHLDNFwEc4F5rHnuLkgbfp89P/n3Z8f/M9Js/LTjX+NH0eX/2+T3/XX0z46V9nsTeosuAU5fklSgVUmfZtSjcHC/jx9pgPfXAKnHHUYSQMXdX2P0a9yj/+9xqx95Tv9vl8ofeU430/X/XXP8I8/p/8t684fnOd0mc/ap4gHYP5uZs5Soi0/u9jCRT03L8K9m4zvdtUr59PWvIdx601rn/xMAAP//0ae/BxYdAAA=
+(Assembly="$(b02fafe6-5412-4df7-bcb4-9546ea702baf.OutputPathUri)" Namespace=FiniteStateMachines.RegExps Type=(Name=RegExpFSMBuilder GenericParameterCount=2) ObjectInstance="Object instance 2")
+this : RegExpFSMBuilder&lt;TOut,TId&gt;
+BuildNfa()</generationState>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="655cde96-8847-45a9-977b-b3ba66f83236" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="b92a0cd9-e7b8-47df-8651-d25e752a62f3" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="7fdd5861-4e64-4c96-b3d0-128178bd91a3" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="24c527a0-b367-4121-a4f7-6962f9ead017" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>
